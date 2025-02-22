@@ -46,13 +46,4 @@ public class Main {
         }
         return minutes;
     }
-
-    public static void scan()
-    {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Введите число:");
-        int n = in.nextInt();
-        in.close();
-        System.out.println(sumOfN(n));
-    }
-   
+}
